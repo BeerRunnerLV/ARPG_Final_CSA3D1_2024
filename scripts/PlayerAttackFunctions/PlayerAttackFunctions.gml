@@ -86,7 +86,7 @@ function HurtEnemy(_enemy, _damage, _source, _knockback)
 				if (state != ENEMYSTATE.HURT) statePrevious = state;
 				state = ENEMYSTATE.HURT;
 			}
-			
+				
 			image_index = 0;
 			if (_knockback != 0)
 			{
